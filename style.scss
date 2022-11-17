@@ -9,12 +9,87 @@
    src: url("../fonts/inter/Inter-VariableFont_slnt,wght.ttf") format("truetype");
 }
 .header{
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:darkcyan;
+    padding: 1rem;
+    color: aliceblue;
     &__title{
-        font-size: large;
+        font-family: "Kumbh Sans";
+        font-size: 30px;
+     
     }
 }
+
+.forma{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-family: "Kumbh Sans", sans-serif; 
+    font-weight: 600;
+
+    &__title-2{
+        margin-bottom: 1.5rem;
+    }
+
+    &__input input{
+        width: 40vw;
+        padding: 1rem;
+        margin-block-end: 0.2rem;
+        margin-block-start: 4%;
+        font-family: 'Lucida Sans';
+        font-size: 20px;
+        color: black;
+        border-radius: 5px;
+        border-color: aliceblue;
+        
+    }
+
+    &__btn input{
+        width: 20vw;
+        padding: 5%;
+        margin-block-end: 4%;
+        margin-block-start: 4%;
+        margin-top: 10%;
+        font-family: 'Lucida Sans';
+        font-size: 20px;
+        color: white; 
+        border-radius: 5px;
+        background-color: rgb(73, 9, 156);
+        border: none;
+         margin-left: 25%;
+        position: relative;
+        animation-duration: 5s;
+        animation-direction: alternate;
+        transition: transform 1s;
+  
+        
+
+    }
+    
+    
+}
+
+.forma__input input:hover{
+    background-color: black;
+}
+.forma__input input::placeholder{
+  color: black;
+}
+.forma__btn input:hover{
+    background-color: black;
+  right: 60%;
+  left: 50%;
+   transform: rotate(180deg);
+
+}
+
+
 
